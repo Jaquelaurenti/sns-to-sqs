@@ -27,7 +27,7 @@ aws sqs receive-message \
   
 ```
 aws sqs receive-message \
-    --queue-url "https://sqs.eu-west-1.amazonaws.com/157088858309/sns-to-sqs" \
+    --queue-url "https://sqs.eu-west-1.amazonaws.com/<account-id>/sns-to-sqs" \
     --max-number-of-messages 1 \
     --region=eu-west-1 \
     | jq '.Messages[].Body | fromjson | .Message'
