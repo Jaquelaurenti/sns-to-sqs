@@ -1,4 +1,6 @@
 ### Guide de Teste 
+Link que utilizei como guia para construção desse tutorial.
+https://blog.awsfundamentals.com/amazon-sns-to-sqs 
 
 - Publicar o sns
 
